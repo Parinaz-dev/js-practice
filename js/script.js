@@ -1,9 +1,12 @@
-for (var data = 1; data <= 10; data++) {
+
+var number = window.prompt("عدد را وارد کنید");
+
+for (var data = 1; data <= number; data++) {
     var b = data % 2;
-    if (b == 0) {
+    if (b != 0) {
+
         console.log(data);
 
-        console.log("این عدد زوج است");
 
 
         //کنسول گرفتم از بی چیزی نشون نداد
@@ -15,6 +18,8 @@ for (var data = 1; data <= 10; data++) {
         }*/
 
 }
+
+
 
 
 
