@@ -5,7 +5,7 @@ for (var data = 1; data <= number; data++) {
     var b = data % 2;
     if (b != 0) {
 
-        console.log(data);
+        document.write(data);
 
 
 
